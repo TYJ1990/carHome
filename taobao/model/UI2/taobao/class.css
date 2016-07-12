@@ -1,0 +1,23 @@
+.text-black{ color:#333;}
+.tb-nopadding{ padding-left:0;padding-right:0;}
+
+/*顶部titlebar*/
+.x-panel-top .x-titlebar{ background-color:#ff4400;}
+.x-titlebar .x-titlebar-title{ font-weight:normal;}
+.x-cards{ padding:0;}
+
+/*左右模块*/
+.tb-box, .tb-box>.col{ height:100%; margin:0; padding:0;}
+.tb-box>.col{ overflow:auto;}
+.tb-box>.col:first-child{ padding-right:10px;}
+
+/*一级分类*/
+.list-group{ box-shadow:none;}
+.list-group-item{ background-color:#f5f5f5; border-radius:0; border-color:#e1e1e1;}
+.list-group-item.current{ background-color:#fff; border-right:0; color:#cf0202;}
+.list-group-item.current h5{ color:#cf0202;}
+
+/*三级分类列表*/
+.tb-listBox{ padding-left:0px; padding-right:10px; margin-bottom:10px;}
+.tb-listBox div{ background-color:#fff;}
+.tb-listBox p{ font-size:13px; margin-top:5px;}

@@ -1,0 +1,4 @@
+[
+{"id":"1","fSendName":"快递","fCost":"免邮","fState":"1"},
+{"id":"2","fSendName":"特快","fCost":"20元","fState":"0"}
+]

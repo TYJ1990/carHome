@@ -1,0 +1,40 @@
+.text-black{ color:#212121;}
+
+.x-cards{padding-top:0;}
+.panel{ border:0;}
+.panel.panel-default{ margin-bottom:10px;}
+.row{ margin:0;}
+
+.tb-nopadding{ padding:0;}
+.btn i{ font-size:20px;}
+.btn span{ font-size:12px; font-weight:normal;}
+
+.tb-img1{ width:100%; height:133px;}
+.tb-img5{ width:70%;}
+.tb-img6{ width:100%;}
+
+/*顶部titlebar*/
+.x-titlebar{ background-color:#ff4400;}
+.x-titlebar .btn{ padding:0;}
+.x-titlebar .btn-link{ height:auto;}
+
+.tb-top.x-titlebar .x-titlebar-title.tb-searchBox{ text-align:left; padding-top:8px;}
+.tb-searchBox span{ font-size:16px;}
+.tb-searchBox div{ height:3px; border:1px solid #fff; border-top:none;}
+
+/*导航栏目*/
+.tb-menu.table > tbody > tr > td{ border:0;width:20%;}
+.tb-menu.table > tbody > tr > td{ padding-left:0; padding-right:0;}
+
+.tb-line-right{ border-right:1px solid rgba(90, 90, 90, 0.05);}
+
+/*底部*/
+.btn-group{ background-color:#fff;}
+.x-card.btn-group .btn.active{ color:#ff4400;}
+.btn-group .btn i{ font-size:30px; padding-bottom:0;}
+
+/*内容*/
+.tb-twoColList.col-xs-6{ padding:10px;}
+.tb-twoColList.col-xs-6 h5{ height:45px; overflow:hidden;}
+
+

@@ -1,0 +1,57 @@
+.text-black{ color:#212121;}
+.text-danger{ color:#ff4400;}
+.thumbnail{ margin-bottom:0; padding:8px 0;}
+
+/*删除线*/
+.tb-text-del{ text-decoration:line-through;}
+/*竖线*/
+.tb-line{border-right:1px solid #d1d1d1;}
+/*去除padding*/
+.tb-nopadding{ padding-left:0; padding-right:0;}
+
+.x-cards{ padding-top:0;}
+.panel.panel-default{ margin-bottom:10px;}
+.row{ margin:0;}
+h4{ margin-top:0;}
+
+.tb-img{ width:100%; height:251px;}
+
+/*顶部titlebar**********************************************/
+.tb-trans .x-panel-top { z-index : 100; }
+.tb-trans .x-panel-top .x-titlebar{ background:none;}
+.tb-trans .x-panel-content{ top:0 !important;}
+.tb-trans.x-panel .no-iosstatusbar  >.x-panel-content{
+	top:-20px!important;
+}
+
+.tb-box .tb-backBtn, .tb-box .tb-cartBtn, .tb-box .tb-moreBtn{ width:40px; height:40px; border-radius:65px; color:#fff; background-color:rgba(0,0,0,0.4);}
+.tb-cartBtn{ margin-top:-7px;}
+
+.x-popOver-overlay{ background-color:#000;}
+
+/*选项卡*/
+.tb-tabs{ padding-bottom:10px; background-color:#efefef;}
+.tb-tabs a.btn { color:#666; background-color:#fff;}
+.tb-tabs .btn.active{ border-bottom:2px solid #ff4400; color:#ff4400;}
+
+/*底部********************************************************/
+.btn-icon-top span{font-size:12px;}
+.x-panel-bottom { border-top:1px solid #d3d3d3; border-bottom:1px solid #d3d3d3;}
+.x-panel-bottom .btn{ color:#666; padding:3px 0 0 0;}
+.x-panel-bottom .btn:nth-child(2){ border-left:1px solid #dcdcdc; border-right:1px solid #dcdcdc;}
+.tb-shopping .btn{ height:48px; font-size:14px; margin:0; padding:0; border-radius:0; box-shadow:none; border:none; box-sizing:none; background:none; color:#fff;}
+.tb-shopping .btn:first-child{ background-color:#fe9100;}
+.tb-shopping .btn:last-child{ background-color:#fd5001;}
+
+/*颜色选择*/
+.x-popOver .x-popOver-overlay{ background-color:#000;}
+.x-popOver .x-popOver-content{ width:100%; background-color:#fff; bottom:0!important;}
+.tb-colorImg{ position:absolute; top:-20px; left:10px; width:110px; height:120px;}
+.tb-title{ padding:20px 0 0 130px;}
+.tb-close{ font-size:30px;}
+.tb-colorList .col{ padding-left:0; padding-right:10px; margin-bottom:10px;}
+.tb-colorList .col div{ line-height:30px; background-color:#efefef; border-radius:5px;}
+.tb-colorList .col div.current{ background-color:#ff4400; color:#fff;}
+.tb-colorOk{ background-color:#ff4400; color:#fff; border-radius:0;}
+
+

@@ -1,0 +1,34 @@
+.bg-white{ background-color:#fff;}/*白色背景*/
+.text-black{ color:#555;}
+
+.x-titlebar{ background-color:#ff4400;}
+.x-titlebar-right .btn i{ font-size:24px;}
+.row{ margin:0;}
+.x-cards{ padding-top:15px;}
+
+.tb-box{ margin-bottom:10px; border-top:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc;}
+.tb-del-line{ text-decoration:line-through;}/*删除线*/
+
+.x-card .panel-heading{ padding:5px 15px;}
+.x-card .panel-heading i{ margin-right:13px;}
+
+.tb-img-shop{ width:20px; height:20px;}
+.tb-img-good{ width:100%; height:100px;}
+.tb-nomargin{ margin:0;}
+.tb-nopadding{ padding:0;}
+
+/*商品 */
+.tb-goodList{ margin-bottom:5px;}
+.tb-goodList:last-child{ margin-bottom:0px;}
+.tb-goodList .x-col:first-child { padding-top:35px;}
+.tb-goodList .x-col:nth-child(2){ width:100px; padding-right:5px;}
+.tb-goodList .h5{ height:30px; overflow:hidden; text-overflow:ellipsis;}
+.tb-goodList .h6{ margin-top:3px; margin-bottom:3px;}
+.tb-numberOperation{ width:100%; height:30px;}
+.tb-numberOperation .btn{ border-radius:0;}
+.tb-numberOperation span{ padding:4px 15px; border-top:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;}
+
+/*底部结算**/
+.x-panel-bottom{ border-top:1px solid #dcdcdc;}
+.x-panel-bottom .h4{ margin:5px 0;}
+.tb-settlement{ line-height:40px; background-color:#fd5001; color:#fff; font-size:16px;}

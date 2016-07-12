@@ -1,0 +1,17 @@
+[
+{"fID":"s001","fRootID":"r001","fClassName":"为您推荐"},
+{"fID":"s002","fRootID":"r001","fClassName":"男装"},
+{"fID":"s003","fRootID":"r001","fClassName":"女装"},
+{"fID":"s004","fRootID":"r002","fClassName":"当季流行"},
+{"fID":"s005","fRootID":"r002","fClassName":"连衣裙"},
+{"fID":"s006","fRootID":"r002","fClassName":"上衣"},
+{"fID":"s007","fRootID":"r002","fClassName":"下搭"},
+{"fID":"s008","fRootID":"r003","fClassName":"女鞋"},
+{"fID":"s009","fRootID":"r003","fClassName":"女包"},
+{"fID":"s010","fRootID":"r003","fClassName":"旅行箱"},
+{"fID":"s011","fRootID":"r004","fClassName":"家电办公"},
+{"fID":"s012","fRootID":"r004","fClassName":"运动户外"},
+{"fID":"s013","fRootID":"r004","fClassName":"珠宝配饰"},
+{"fID":"s014","fRootID":"r005","fClassName":"男鞋"},
+{"fID":"s015","fRootID":"r005","fClassName":"男包"}
+]

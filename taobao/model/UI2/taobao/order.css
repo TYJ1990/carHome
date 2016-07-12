@@ -1,0 +1,22 @@
+.text-white{ color:#fff;}
+.text-black{ color:#212121;}
+
+.x-titlebar{ background-color:#ff4400; border:0;}
+
+.panel.panel-default{ margin-bottom:10px;}
+.panel-heading{ border-color:#dfdfdf;}
+.row{ margin:0;}
+.btn i{ font-size:20px;}
+
+.tb-noborder{ border:0;}
+
+.tb-img-shop{ width:20px; height:20px;}
+.tb-img-good{ width:120px; height:110px;}
+
+/*底部结算**/
+.x-panel-bottom .h4{ margin:5px 0; padding-right:10px; line-height:48px;}
+.tb-settlement{ background-color:#fd5001; color:#fff; font-size:16px;}
+
+/*配送方式*/
+.x-popOver-overlay{ background-color:#000;}
+.x-popOver-content{ width:300px; background-color:#fff;}

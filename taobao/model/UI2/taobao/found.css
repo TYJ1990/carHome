@@ -1,0 +1,41 @@
+.btn-group{ height:40px; border-top:1px solid #e7e7e7; border-bottom:1px solid #e7e7e7;}
+.btn-group .btn{ border-left:1px solid #e7e7e7; color:#666;}
+.text-white{ color:#fff;}
+.text-black{ color:#212121;}
+.text-danger{ color:#ff4400;}
+
+/*顶部titlebar**/
+.x-titlebar{ background-color:#ff4400;}
+.tb-index.x-titlebar .x-titlebar-title{ padding:10px 0;}
+.tb-index.x-titlebar .form-group input{ background-color:#ff4400; border-top:0; border-left:0; border-right:0;}
+.tb-index.x-titlebar .form-group input:focus{ box-shadow:none;}
+
+.tb-nopadding{ padding:0;}
+
+/*弹出菜单*/
+.x-popOver-overlay{ top:88px; background-color:#000;}
+.tb-sorting{ width:100%; background-color:#fff; border-top:1px solid #e1e1e1;}
+.tb-sorting .list-group-item{ margin:0 10px; padding-left:0;padding-right:0; border-radius:0; border-left:0; border-right:0; border-top:0;}
+.tb-sorting .list-group-item .tb-liBtn{ display:none;}
+.tb-sorting .list-group-item.current .tb-liBtn{ display:block;}
+.tb-sorting .list-group-item.current{ color:#ff4400;}
+/*筛选价格*/
+.list-group-item span{ padding-top:5px;}
+.list-group-item input{ background-color:#eee;}
+.list-group-item input:focus{ background-color:#fff;}
+/*筛选折扣*/
+.tb-typelist .col{ padding-left:0; padding-right:5px;}
+.tb-typelist .col h5{ line-height:30px; border-radius:5px; background-color:#eee; font-size:12px;}
+.tb-typelist .col h5.current{ background-color:#ff4400; color:#fff;}
+
+/*筛选按钮*/
+.tb-resetBtn.btn-default{ border-color:#ff4400; background-color:#fff; color:#ff4400; padding:4px 20px;}
+.tb-okBtn.btn{ margin-top:20px; background-color:#ff4400; border-radius:0; border:0;}
+
+/*单列内容*/
+.media{ margin-top:0; padding:10px; border-bottom:1px solid #e7e7e7; background-color:#fff;}
+
+/*双列内容*/
+.tb-twoColList{ padding:5px;}
+.tb-twoColList ul li{ margin-bottom:15px; padding:5px; background-color:#fff;}
+
