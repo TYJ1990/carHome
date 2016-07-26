@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="comcell" id="KGk-i7-Jjw" customClass="CommonTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.png" translatesAutoresizingMaskIntoConstraints="NO" id="Sk3-Dv-yuU">
+                        <rect key="frame" x="287" y="22" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="7qp-Wt-aTl"/>
+                            <constraint firstAttribute="width" constant="15" id="iIP-go-peW"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WdC-BY-5Yd">
+                        <rect key="frame" x="18" y="10" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="PVg-mv-zJ5"/>
+                            <constraint firstAttribute="width" constant="40" id="tcW-Tm-ifA"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Lt-Ib-0Jo">
+                        <rect key="frame" x="66" y="38" width="200" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="200" id="1SR-Dw-haz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3bf-e0-zJj">
+                        <rect key="frame" x="66" y="10" width="118" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="118" id="jo8-z5-PjV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="3Lt-Ib-0Jo" firstAttribute="leading" secondItem="WdC-BY-5Yd" secondAttribute="trailing" constant="8" id="57A-gi-bGr"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Sk3-Dv-yuU" secondAttribute="trailing" constant="10" id="6Qh-DQ-Ny5"/>
+                    <constraint firstItem="Sk3-Dv-yuU" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="B0K-Ne-WM4"/>
+                    <constraint firstItem="WdC-BY-5Yd" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="STW-gd-8mL"/>
+                    <constraint firstItem="3bf-e0-zJj" firstAttribute="leading" secondItem="WdC-BY-5Yd" secondAttribute="trailing" constant="8" id="cPG-05-aru"/>
+                    <constraint firstItem="3bf-e0-zJj" firstAttribute="top" secondItem="WdC-BY-5Yd" secondAttribute="top" id="iNG-bA-9qy"/>
+                    <constraint firstItem="WdC-BY-5Yd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="pLh-iq-PGE"/>
+                    <constraint firstItem="3Lt-Ib-0Jo" firstAttribute="bottom" secondItem="WdC-BY-5Yd" secondAttribute="bottom" id="qlE-nD-rhT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bbsnameL" destination="3bf-e0-zJj" id="GsC-CG-cCH"/>
+                <outlet property="imageV" destination="WdC-BY-5Yd" id="x3J-Kc-iUI"/>
+                <outlet property="introduceL" destination="3Lt-Ib-0Jo" id="1Uv-KU-4eT"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow.png" width="72" height="64"/>
+    </resources>
+</document>

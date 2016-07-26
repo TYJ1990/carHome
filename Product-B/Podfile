@@ -1,0 +1,15 @@
+platform :ios, '7.0'
+target ‘Product-B’ do
+pod 'FMDB', '~> 2.6.2'
+pod 'AFNetworking', '~> 3.1.0'
+pod 'SDWebImage', '~> 3.8.1'
+pod 'MJRefresh', '~> 3.1.7'
+pod 'MMDrawerController', '~> 0.6.0'
+pod 'ShareSDK3'
+pod 'MOBFoundation_IDFA'
+pod 'ShareSDK3/ShareSDKUI'
+pod 'ShareSDK3/ShareSDKPlatforms/QQ'
+pod 'ShareSDK3/ShareSDKPlatforms/SinaWeibo'
+pod 'ShareSDK3/ShareSDKPlatforms/WeChat'
+pod 'SMSSDK'
+end

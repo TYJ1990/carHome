@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ValidationViewController">
+            <connections>
+                <outlet property="dateBut" destination="xjc-Jq-5yg" id="gyW-9W-QZS"/>
+                <outlet property="vCodeTF" destination="QWw-Wi-vb2" id="yY7-Lb-R7f"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cgc-oq-8dr">
+                    <rect key="frame" x="0.0" y="90" width="375" height="40"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入短信验证码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QWw-Wi-vb2">
+                            <rect key="frame" x="15" y="0.0" width="250" height="40"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                            <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xjc-Jq-5yg">
+                            <rect key="frame" x="273" y="6" width="87" height="29"/>
+                            <constraints>
+                                <constraint firstAttribute="width" priority="150" constant="87" id="2eK-Kc-hBw"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="重新获取00s">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="QWw-Wi-vb2" firstAttribute="leading" secondItem="cgc-oq-8dr" secondAttribute="leading" constant="15" id="5Fq-tP-lOr"/>
+                        <constraint firstAttribute="trailing" secondItem="xjc-Jq-5yg" secondAttribute="trailing" constant="15" id="8mG-yf-MUL"/>
+                        <constraint firstItem="QWw-Wi-vb2" firstAttribute="top" secondItem="cgc-oq-8dr" secondAttribute="top" id="Ao6-tA-WZC"/>
+                        <constraint firstAttribute="height" constant="40" id="Ffl-gx-hOK"/>
+                        <constraint firstItem="QWw-Wi-vb2" firstAttribute="leading" secondItem="cgc-oq-8dr" secondAttribute="leading" constant="15" id="KaB-j3-3TJ"/>
+                        <constraint firstItem="xjc-Jq-5yg" firstAttribute="centerY" secondItem="cgc-oq-8dr" secondAttribute="centerY" id="MIo-JR-l15"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="Ra6-Ya-dvR"/>
+                        <constraint firstAttribute="bottom" secondItem="QWw-Wi-vb2" secondAttribute="bottom" id="T16-r2-tYJ"/>
+                        <constraint firstItem="QWw-Wi-vb2" firstAttribute="centerY" secondItem="cgc-oq-8dr" secondAttribute="centerY" id="vld-um-hc5"/>
+                        <constraint firstItem="xjc-Jq-5yg" firstAttribute="leading" secondItem="QWw-Wi-vb2" secondAttribute="trailing" constant="8" id="z5X-l9-cmT"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDc-Xw-PND">
+                    <rect key="frame" x="15" y="150" width="345" height="40"/>
+                    <color key="backgroundColor" red="0.25810673379999999" green="0.48805593899999999" blue="0.84933327879999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="1c6-Ef-vjc"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="FaM-jK-LtP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="下一步">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="nextAction:" destination="-1" eventType="touchUpInside" id="Ove-rq-G7h"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.92162958110000004" green="0.92162958110000004" blue="0.92162958110000004" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="cgc-oq-8dr" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="90" id="2Zg-LP-RWD"/>
+                <constraint firstItem="KDc-Xw-PND" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="CfM-lv-59Y"/>
+                <constraint firstItem="KDc-Xw-PND" firstAttribute="top" secondItem="cgc-oq-8dr" secondAttribute="bottom" constant="20" id="HHy-KG-DFG"/>
+                <constraint firstItem="KDc-Xw-PND" firstAttribute="top" secondItem="cgc-oq-8dr" secondAttribute="bottom" constant="20" id="Par-CB-fmO"/>
+                <constraint firstAttribute="trailing" secondItem="cgc-oq-8dr" secondAttribute="trailing" id="RDL-DM-she"/>
+                <constraint firstItem="cgc-oq-8dr" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="TUt-mN-eeE"/>
+                <constraint firstAttribute="trailing" secondItem="KDc-Xw-PND" secondAttribute="trailing" constant="15" id="j3r-DI-BRT"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,72 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - MJRefresh (3.1.10)
+  - MMDrawerController (0.6.0):
+    - MMDrawerController/Core (= 0.6.0)
+    - MMDrawerController/MMDrawerBarButtonItem (= 0.6.0)
+    - MMDrawerController/MMDrawerVisualStates (= 0.6.0)
+    - MMDrawerController/Subclass (= 0.6.0)
+  - MMDrawerController/Core (0.6.0)
+  - MMDrawerController/MMDrawerBarButtonItem (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.6.0):
+    - MMDrawerController/Core
+  - MOBFoundation_IDFA (2.0.7)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - ShareSDK3 (3.3.2):
+    - ShareSDK3/ShareSDK (= 3.3.2)
+  - ShareSDK3/ShareSDK (3.3.2)
+  - ShareSDK3/ShareSDKPlatforms/QQ (3.3.2)
+  - ShareSDK3/ShareSDKPlatforms/SinaWeibo (3.3.2)
+  - ShareSDK3/ShareSDKPlatforms/WeChat (3.3.2)
+  - ShareSDK3/ShareSDKUI (3.3.2)
+  - SMSSDK (2.0.5)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - FMDB (~> 2.6.2)
+  - MJRefresh (~> 3.1.7)
+  - MMDrawerController (~> 0.6.0)
+  - MOBFoundation_IDFA
+  - SDWebImage (~> 3.8.1)
+  - ShareSDK3
+  - ShareSDK3/ShareSDKPlatforms/QQ
+  - ShareSDK3/ShareSDKPlatforms/SinaWeibo
+  - ShareSDK3/ShareSDKPlatforms/WeChat
+  - ShareSDK3/ShareSDKUI
+  - SMSSDK
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  MJRefresh: bb72948c985914b0b5cecac573a2c69a8915fb02
+  MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
+  MOBFoundation_IDFA: 965c0c4ae890a9732eb3e0261e26b078df9f7c63
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  ShareSDK3: c76cb96eb38e079952b8157071486d945faa2df2
+  SMSSDK: 85375419fc969dc9398ce9922c5165c1e14ebe23
+
+PODFILE CHECKSUM: a7ad9bd6db14f279eb0de4212ab9d15dfe928e87
+
+COCOAPODS: 1.0.1

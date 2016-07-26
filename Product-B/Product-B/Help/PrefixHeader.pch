@@ -1,0 +1,44 @@
+//
+//  PrefixHeader.pch
+//  Product-B
+//
+//  Created by lanou on 16/7/12.
+//  Copyright © 2016年 wxl. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <UIImageView+WebCache.h>
+#import <FMDB.h>
+#import <MJRefresh.h>
+#import <AFNetworking.h>
+#import "RequestManager.h"
+#import "UIView+TWFrame.h"
+#import "UILabel+LabelHeightAndWidth.h"
+#import "CarouselView.h"
+#define kNaviH 40
+#define kWidth [UIScreen mainScreen].bounds.size.width
+#define kHeight [UIScreen mainScreen].bounds.size.height
+#define kImage [UIImage imageNamed:@"shipinbg.png"]
+#define kTotalUrl @"http://club.app.autohome.com.cn/club_v5.6.0/mobile/metadata.ashx?types=newstype%7C0,seriesnews%7C0,piccategory%7C0,videotype%7C0,jingxuan%7C0,dealerscope%7C0,spectestdetail%7C0,seriesclubfilter%7C0,buyorder%7C0,speccompare%7C0"
+
+
+#import <ShareSDK/ShareSDK.h>
+#import <ShareSDKConnector/ShareSDKConnector.h>
+#import <ShareSDKUI/ShareSDK+SSUI.h>
+//腾讯开放平台（对应QQ和QQ空间）SDK头文件
+#import <TencentOpenAPI/TencentOAuth.h>
+#import <TencentOpenAPI/QQApiInterface.h>
+
+//微信SDK头文件
+#import "WXApi.h"
+
+//新浪微博SDK头文件
+#import "WeiboSDK.h"
+#import "MusicPlayViewController.h"
+#import <SMS_SDK/SMSSDK.h>
+
+#endif /* PrefixHeader_pch */
